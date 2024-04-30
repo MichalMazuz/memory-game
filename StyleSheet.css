@@ -1,0 +1,87 @@
+﻿body {
+    
+}
+.warp{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    height: 45vw;
+    width:92vw;
+    margin-left:3.5vw
+}
+.animal1 {
+    background-image: url(pictures/dolphine.jpg)
+}
+.animal2 {
+    background-image: url(pictures/cat.jpg)
+}
+.animal3 {
+    background-image: url(pictures/HOURS.jpg)
+}
+.animal4 {
+    background-image: url(pictures/panda.jpg)
+}
+
+.animal5{
+    background-image: url(pictures/snai.jpeg)
+}
+
+.animal6 {
+    background-image: url(pictures/arnav.jpeg)
+}
+.card {
+    background-image: url(pictures/question2.jpg);
+    border: 5px solid grey;
+    border-radius: 10px;
+    background-size: contain;
+    background-position: center;
+}
+.warp div {
+    border: 5px solid grey;
+    border-radius: 15px;
+    background-size: contain;
+    background-position: center;
+}
+.vectory {
+    position: fixed;
+    z-index: 10; 
+    width: 100%; 
+    height: 100%;
+    display: none;
+    text-align: inherit;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+}
+#gif {
+   /* grid-column: 2/3;
+    grid-row:2/3;*/
+    position: absolute;
+    width:65vw;
+    height:80vh;
+    margin-left:17.5vw;
+}
+a, #try {
+    direction: rtl;
+    border: 2px solid grey;
+    border-radius: 10px;
+    width: 100%;
+    color: black;
+    margin: 3px;
+    text-decoration: none;
+    font-size: 2rem;
+  
+}
+
+#end {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: white;
+    display: none;
+    grid-template-rows: 1fr  1fr;
+    border-radius: 15px;
+    position: relative
+}
+
